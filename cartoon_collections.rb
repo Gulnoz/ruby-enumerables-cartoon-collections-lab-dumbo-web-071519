@@ -1,4 +1,4 @@
-def roll_call_dwarve()
+def roll_call_dwarve(dwarfs)
   # Your code here
 end
 
