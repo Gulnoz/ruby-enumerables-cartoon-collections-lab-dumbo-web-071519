@@ -1,4 +1,4 @@
-def roll_call_dwarve(dwarfs)
+def roll_call_dwarves(dwarfs)
  dwarfs.map{|el| puts el}
 end
 
