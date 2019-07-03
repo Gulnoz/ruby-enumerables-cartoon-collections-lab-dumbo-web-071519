@@ -19,9 +19,9 @@ def find_the_cheese(if_cheese)
   
   cheese_types = ["cheddar", "gouda", "camembert"]
   for i in cheese_type
-    if if_cheese.include(cheese_types[i])
-       return true
+  el=cheese_types[i]
+    if if_cheese.include(el)
+       return el
     end
   end
-  false
 end
