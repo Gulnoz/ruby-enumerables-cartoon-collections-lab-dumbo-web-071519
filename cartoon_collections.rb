@@ -1,5 +1,5 @@
 def roll_call_dwarve(dwarfs)
-  # Your code here
+ dwarfs.map{|el| puts el}
 end
 
 def summon_captain_planet# code an argument here
