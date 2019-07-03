@@ -1,5 +1,4 @@
-def roll_call_dwarves()
-  # code an argument here
+def roll_call_dwarve()
   # Your code here
 end
 
