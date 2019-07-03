@@ -15,13 +15,12 @@ def long_planeteer_calls(calls)
  false
 end
 
-def find_the_cheese(if_cheese)
+ def find_the_cheese(if_cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
- 
-  for i in cheese_types
-    if if_cheese.include?(i)
-       return i
-    end
+  cheese_types.map{ |el| 
+  if if_cheese.include?(el) 
+    return el
   end
+  }
   nil
 end
