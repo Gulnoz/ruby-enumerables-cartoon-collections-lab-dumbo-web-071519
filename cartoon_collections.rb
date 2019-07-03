@@ -7,7 +7,7 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(calls)
-  calls.each{|call| call.length>4 ? true:false}
+  calls.each{|call| call.length>4 ? return true: return false}
  
 end
 
